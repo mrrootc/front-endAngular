@@ -12,6 +12,9 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { StatistiqueComponent } from './pages/statistique/statistique.component';
 import { ArticlesComponent } from './pages/articles/articles/articles.component';
 import { DetailArticleComponent } from './composants/detail-article/detail-article.component';
+import { PaginationComponent } from './composants/pagination/pagination.component';
+import { BouttonActionComponent } from './composants/boutton-action/boutton-action.component';
+import { NouvelArticleComponent } from './pages/articles/nouvel-article/nouvel-article.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { DetailArticleComponent } from './composants/detail-article/detail-artic
     DashboardComponent,
     StatistiqueComponent,
     ArticlesComponent,
-    DetailArticleComponent
+    DetailArticleComponent,
+    PaginationComponent,
+    BouttonActionComponent,
+    NouvelArticleComponent
   ],
   imports: [
     BrowserModule,

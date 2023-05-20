@@ -5,6 +5,7 @@ import { RegisterComponent } from './pages/register/register.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { StatistiqueComponent } from './pages/statistique/statistique.component';
 import { ArticlesComponent } from './pages/articles/articles/articles.component';
+import { NouvelArticleComponent } from './pages/articles/nouvel-article/nouvel-article.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
       {
         path: "articles",
         component: ArticlesComponent
+      },
+      {
+        path:"nouvelarticle",
+        component: NouvelArticleComponent
       }
     ]
   }
